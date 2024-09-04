@@ -4,7 +4,7 @@ import { atualizar, buscar, cadastrar } from '../../../services/Service';
 import Categoria from '../../../models/Categoria';
 import { ToastAlerta } from '../../../utils/ToastAlerta';
 
-function FormTemas() {
+function FormCategoria() {
   const [categoria, setCategoria] = useState<Categoria>({} as Categoria);
 
   let navigate = useNavigate();
@@ -94,4 +94,4 @@ function FormTemas() {
   );
 }
 
-export default FormTemas;
+export default FormCategoria;
